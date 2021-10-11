@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16sp"
+    android:background="@drawable/mage"
+
+    >
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="352dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="322dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="318dp"
+        android:hint="ID"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black" />
+
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="349dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="382dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="253dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="@color/black"
+        tools:ignore="Autofill"
+       />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="129dp"
+        android:layout_height="77dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="137dp"
+
+        android:layout_marginTop="494dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/button"
+        android:gravity="center"
+        android:hint="login"
+        android:textColorHint="@color/white"
+        tools:ignore="UnusedAttribute" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="122dp"
+        android:layout_height="110dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="520dp"
+        app:srcCompat="@drawable/logo1" />
+
+    <Spinner
+        android:id="@+id/user_type"
+        android:layout_width="wrap_content"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="241dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="395dp"
+       android:entries="@array/user_type" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="130dp"
+        android:layout_height="76dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="247dp"
+        android:layout_marginEnd="233dp"
+        android:layout_marginBottom="392dp"
+        android:text="User Type"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

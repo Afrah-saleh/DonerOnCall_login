@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16sp"
+    android:background="@drawable/mage"
+
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="341dp"
+        android:layout_height="75dp"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="400dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="517dp"
+        android:hint="name"
+        android:inputType="textPersonName"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/black"
+        tools:ignore="Autofill,RtlSymmetry"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="75dp" />
+
+
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="400dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="457dp"
+        android:hint="email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/black"
+        tools:ignore="Autofill,RtlSymmetry"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="400dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="398dp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/black"
+        tools:ignore="Autofill,RtlSymmetry"
+        tools:layout_editor_absoluteX="-5dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="391dp"
+        android:layout_height="84dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="340dp"
+        android:autofillHints="Birth Date"
+        android:hint="Birth date"
+        android:inputType="date"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/black"
+        tools:ignore="RtlSymmetry"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+
+    <EditText
+        android:id="@+id/add"
+        android:layout_width="391dp"
+        android:layout_height="84dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="265dp"
+        android:autofillHints="Birth Date"
+        android:hint="Address"
+        android:inputType="date"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textColorHint="@color/black"
+        tools:ignore="RtlSymmetry"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="414dp" />
+
+    <TextView
+        android:layout_width="165dp"
+        android:layout_height="91dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="216dp"
+        android:layout_marginBottom="156dp"
+        android:text="Blood group"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="175dp"
+        android:layout_height="90dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="187dp"
+        android:layout_marginTop="482dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="143dp"
+        android:entries="@array/blood_type"
+        android:scrollbarSize="20dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="178dp"
+        android:layout_height="76dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/button"
+        android:text="register"
+        android:textColor="@color/white"
+        tools:ignore="DuplicateSpeakableTextCheck,UnusedAttribute"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+
+</RelativeLayout>
